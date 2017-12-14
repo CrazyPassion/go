@@ -1,7 +1,8 @@
-src/github.com/CrazyPassion/go/Learn/.idea/
 .vscode/
 pkg/
 bin/
 src/golang.org
+src/github.com/CrazyPassion/go/Learn/.idea/
 src/github.com/Yawning
 src/github.com/shadowsocks
+src/github.com/garyburd
