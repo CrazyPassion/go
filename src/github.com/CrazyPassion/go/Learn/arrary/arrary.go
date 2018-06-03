@@ -1,12 +1,8 @@
-package main
+package L_arrary
 
 import (
 	"fmt"
 )
-
-func main() {
-	control()
-}
 
 func multiArray() {
 	var arr [10]int                                 // 声明了一个int类型的数组
