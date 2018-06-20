@@ -6,3 +6,5 @@ src/github.com/CrazyPassion/go/Learn/.idea/
 src/github.com/Yawning
 src/github.com/shadowsocks
 src/github.com/garyburd
+.DS_Store
+*/.DS_Store
