@@ -1,11 +1,11 @@
-package main
+package helloworld
 
 import (
 	"log"
 	"os"
 )
 
-func main() {
+func Log() {
 	// 定义一个文件
 	fileName := "ll.log"
 	logFile, err := os.Create(fileName)

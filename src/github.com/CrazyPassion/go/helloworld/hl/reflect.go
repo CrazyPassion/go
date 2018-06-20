@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 import (
 	"fmt"
@@ -20,6 +20,6 @@ func reflectf2() {
 	v.SetFloat(7.1)
 	fmt.Println(x)
 }
-func main() {
+func Reflect() {
 	reflectf2()
 }

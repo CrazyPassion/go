@@ -1,11 +1,7 @@
-package main
+package helloworld
 
 import "fmt"
 import "os"
-
-func main() {
-	panicfunc()
-}
 
 func myfunc(arg ...int) {
 	for idx, value := range arg {

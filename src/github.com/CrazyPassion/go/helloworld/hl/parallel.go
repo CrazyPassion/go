@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 import (
 	"fmt"
@@ -46,7 +46,7 @@ func fibonacci(n int, c chan int) {
 		c <- x
 		x, y = y, x+y
 	}
-	close(c)
+	close()
 }
 
 func parallelf3() {
@@ -129,8 +129,4 @@ func overtime() {
 
 	// <-c
 
-}
-
-func main() {
-	parallelf1()
 }

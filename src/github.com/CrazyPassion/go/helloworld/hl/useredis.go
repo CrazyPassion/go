@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 import (
 	"fmt"
@@ -67,7 +67,7 @@ func Get(key string) ([]byte, error) {
 	return data, err
 }
 
-func main() {
+func Redis() {
 	test, err := Get("test")
 	fmt.Println(test, err)
 }

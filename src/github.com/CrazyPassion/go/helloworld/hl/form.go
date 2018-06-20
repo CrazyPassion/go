@@ -1,4 +1,4 @@
-package main
+package helloworld
 
 import (
 	"fmt"
@@ -41,7 +41,7 @@ func login(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func main() {
+func Form() {
 	http.HandleFunc("/", sayhelloName)       //设置访问的路由
 	http.HandleFunc("/login", login)         //设置访问的路由
 	err := http.ListenAndServe(":9091", nil) //设置监听的端口

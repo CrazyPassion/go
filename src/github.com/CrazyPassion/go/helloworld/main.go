@@ -1,7 +1,7 @@
 package main
 
 import (
-	hl "github.com/CrazyPassion/helloworld/hl"
+	hl "github.com/CrazyPassion/go/helloworld/hl"
 )
 
 func main() {
